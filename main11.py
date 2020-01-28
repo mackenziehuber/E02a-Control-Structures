@@ -10,7 +10,7 @@ def choose_color(last_color):
         c = random.choice(colors)
     return c
 
-
+#on lines 6-11, we're commanding the program to choose from a list of colors randomly
 
 
 print('Greetings!')
