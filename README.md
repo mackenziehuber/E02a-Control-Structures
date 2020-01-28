@@ -1,21 +1,24 @@
 
 # E02a-Control-Structures
 
-Let's start experimenting with some Python code! This is a set of exercises for MSCH-C220; they should give you the tools to help build your first game.
- 
-This exercise assumes that you have already installed Python, GitHub Desktop, and VS Code, and that you have already created a GitHub account. If that is not the case, please refer to previous exercises.
-
-This repository contains several files that you will need to alter to complete the assignment. Fork this repository (instructions below) and edit the files. Commit and push the changes back to GitHub and turn in the URL to your repository on Canvas.
-
-Comments in Python are marked by a # sign (for single-line comments) or three matching quotation marks (''' or """) if a comment requires more than one line. They should also appear in a different color in VS Code. The Python Interpreter ignores comments, so you can safely include any information you want there.
-
 *If you wish your exercise to be graded, please edit the LICENSE file (add the current year and your name).*
 
 Edit README.md to answer the following questions:
 
 - Open main01.py. Before running it, what do you expect this program to do?
+
+ I expect python to print the following:
+     Greetings!
+     'What is my favorite color?'
+ But it will not respond if you type anything in.
+   
   - Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened.
+  
+   I typed 'yellow' to answer the question, but the Python did nt respond in any way.
+   
   - What do you think the program did with what you typed in answer to the question?
+  
+    
 - Open main02.py. Before running it, describe how this is different than main01.py.
   - What do you think the color = input() will do?
   - Run the program in the terminal and answer the question. Did the program do what you expected?
