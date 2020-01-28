@@ -3,8 +3,6 @@
 
 *If you wish your exercise to be graded, please edit the LICENSE file (add the current year and your name).*
 
-Edit README.md to answer the following questions:
-
 - Open main01.py. Before running it, what do you expect this program to do?
 
  I expect python to print the following:
@@ -18,26 +16,84 @@ Edit README.md to answer the following questions:
    
   - What do you think the program did with what you typed in answer to the question?
   
+  Because the program did not have anything to do with a response, it sent me back to the starting point of terminal.
     
 - Open main02.py. Before running it, describe how this is different than main01.py.
+
+It will produce the same result, but it is different because there is an extra step of designating the term 'color.'
+
   - What do you think the color = input() will do?
+  
+  This designates what the term color means within the code.
+  
   - Run the program in the terminal and answer the question. Did the program do what you expected?
+  
+  No, the program is designating the answer to the input "What is my favorite color" to be the 'color'. So after you answer the input, Python reprints your answer.
+  
 - Open main03.py. Before running it, describe how this is different than main02.py.
+
+This code provides a correct answer for the user, instead of simply reprinting the whatever color the user types in. Python will tell the user to try again until they guess correctly.
+
   - What is happening on lines 9–12?
+  
+  These lines designate the correct answer and the responses for correct and incorrect answers by the user.
+  
   - Why are lines 10 and 12 indented?
+  
+  They're indented because they are dependent upon the line of code written above them.
+  
   - Run the program and answer the question. What happens if you don’t capitalize Red?
+  
+  It takes it as an incorrect answer.
+  
   - What does this tell you about "color"?
+  
+  It needs to be tweaked to say "red," and then we need to add a command to turn each response into all lower case before Python processes the result.
+  
 - Open main04.py. Before running it, describe how this is different than main03.py.
+
+This fixes the issue of different ways to type 'red' in a different way than I explained above. It does this by indicating clor can be 'Red' or 'red'.
+
   - What problem is this trying to solve?
+  
+   The lower case 'red' answer issue.
+   
   - Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+  
+  Any response besides 'red' and 'Red' are considered incorrect, and Python prints "Sorry, try again."
+  
 - Open main05.py. What do you expect line 9 to do?
+
+Convert answers to be a string of all lower case letters.
+
   - What problem is it trying to solve?
+  
+  The issue of different combinations of capitalizing the word 'red'.
+  
   - Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “ RED “ or “ red”)?
+  
+  Python takes this as an incorrect answer.
+  
  - Open main06.py. How is line 9 different than in main05.py?
+ 
+It includes '.strip' after '.lower'.
+ 
    - What would you guess .strip() is doing?
+   
+The '.strip' removes extra spaces(/characters) on either side of the answer.
+
    - Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+   
+   If you mispell the word 'red,' Python will count this as an incorrect answer.
+   
  - Open main07.py. Before running this program, how do you expect this to be different than main06.py?
+ 
+ This program leads users in the correct direction instead of letting them guess aimlessly.
+ 
    - What is happening on line 12?
+   
+   Its using the 'elif'/else if command to designate another possible response by the user.
+   
    - Run the program and answer the question.
  - Open main08.py. What is the purpose of line 9?
    - Why are lines 10–17 indented?
