@@ -96,12 +96,33 @@ The '.strip' removes extra spaces(/characters) on either side of the answer.
    
    - Run the program and answer the question.
  - Open main08.py. What is the purpose of line 9?
+ 
+ To keep the program running until the user guesses the correct answer.
+ 
    - Why are lines 10–17 indented?
+   
+   They are indented because they are everything that is happening WHILE the user is guessing and the program is runnning, as specified by line 9.
+   
    - Run the program. What would happen if line 10 were moved before line 9 (and no longer indented)?
+   
+   The user would have no question to answer and the program would not know what their answer is referring to.
+   
    - Make that change and run the program again. (To end any Python program, you can type ctrl-c)
+   
+   It printed the question, but then printed the associated response continuously, instead of running the program continuously.
+   
  - Open main09.py. What is happening on line 13?
+ 
+ The program is counting how many responses the user writes to the question.
+ 
    - What is the purpose of “count”?
+   
+   The count gives the user a way to track their progress.
+   
    - What is happening on line 22?
+   
+   This is how the program will tell the user how many tries it took them to guess the correct answer after they have guessed it.
+   
    - Run the program.
  - *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]).
  - *Extra credit:* open main11.py. What is happening on lines 6-11?
